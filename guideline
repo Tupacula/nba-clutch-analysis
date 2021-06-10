@@ -1,0 +1,38 @@
+For every player currently in the league see if clutch data
+is statistically different from normal data, get different intervals.
+
+Look at players with highest total clutch, and players with highest difference 
+(good and bad)
+
+IMAGES = Top 10 clutch for each of pts, assists, rebounds, TS%
+
+Model all players pts, assists, rebounds, TS% and then model
+all players pts, assists, rebounds, TS% 
+
+TS% calculate by getting TSA = FGA + 0.44*FTA
+then PTS/ 2*TSA
+
+DISTRIBUTION OF PTS, AST, REB, BLK, STL, TS%
+
+aggregates = grouped.agg({'MIN':'sum','GP':'sum', 'W':'sum', 'L':'sum', 'PTS':'mean',
+                         'REB':'mean', 'AST':'mean','BLK':'mean','STL':'mean','FGM':'mean',
+                         'FGA': 'mean', 'FTA':'mean', 'PLUS_MINUS':'mean', 'TSA':'mean'})
+
+EXTRA: Analyze narratives (westbrook vs nets, lillard clutchness)
+
+averaging over a bigger sample
+
+look at specific players over the clutch time
+
+hypothesis testing
+
+power analysis
+
+average of averages
+
+
+hypothesis testing - normalize data or not?
+
+regular vs playoffs
+
+
