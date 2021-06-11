@@ -28,7 +28,7 @@ I will use a **ttest** because I have unequal variance between my two samples (a
 
 t statistic=-3.344791299084701, p value=  0.0008383792133983506, which is less than 0.05, so I reject the Null Hypothesis
 
-These results are significant. The -t statistic indicates to me that the sample mean on the normalized stats in clutch time is most likely less than the normalized stats in non-clutch time. There are however outliers who are responsible for a significant right_skew of this data who are shown in the following table. These are the 25 players with the highest normed difference.
+These results are significant. The -t statistic indicates to me that the sample mean on the normalized stats in clutch time is most likely less than the normalized stats in non-clutch time. There are however outliers who are responsible for a significant right_skew of this data who are shown in the following table. These are the 25 players with the highest normed difference (the difference between their normed average statistics in the clutch vs non clutch).
 
 ![alt_test](Top25Normed_DIf.png)
 
