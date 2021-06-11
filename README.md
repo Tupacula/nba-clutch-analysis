@@ -11,7 +11,7 @@ I grabbed player data from stats.nba.stats using an API. Unfortunately, I was on
 
 ![alt text](PTS_Averages.png) ![alt text](BLK_Averages.png)
 ![alt text](AST_Averages.png) ![alt text](STL_Averages.png)
-![alt text](REB_Averages.png) ![alt text]('TS%_Averages.png')
+![alt text](REB_Averages.png) ![alt text](https://github.com/Tupacula/nba-clutch-analysis/blob/main/TS%25_Averages.png)
 
 # Statistical Test
 
