@@ -18,12 +18,12 @@ I grabbed player data from stats.nba.stats using an API. Unfortunately, I was on
 
 I normalized the pts, assists, rebounds, blocks, and steals and then added them together to perform a hypothesis test. 
 
-Null Hypothesis: The expected value of these normalized stats in clutch time is equal to othe expected of these normalized stats in non-clutch time (i.e. clutch time has no efffect on a player's performance)
-Alternative Hypothesis: The expected value of these normalized stats is different in clutch time than in non-clutch time
+**Null Hypothesis**: The expected value of these normalized stats in clutch time is equal to othe expected of these normalized stats in non-clutch time (i.e. clutch time has no efffect on a player's performance)
+**Alternative Hypothesis**: The expected value of these normalized stats is different in clutch time than in non-clutch time
 
-Alpha = 0.5
+**Alpha = 0.5**
 
-I will use a ttest because I have unequal variance between my two samples (averages in the clutch and averages overall)
+I will use a **ttest** because I have unequal variance between my two samples (averages in the clutch and averages overall)
 
 # Results
 
